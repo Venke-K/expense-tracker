@@ -1,0 +1,894 @@
+.hero {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.features {
+  padding: 80px 0;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #0d6efd;
+}
+
+
+
+
+/* Background and main container */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4f46e5, #6d28d9);
+  padding: 20px;
+}
+
+/* Card styling */
+.login-card {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-30px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Form elements */
+.login-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 28px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #6d28d9;
+}
+
+/* Button styling */
+.login-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #6d28d9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-form button:hover {
+  background-color: #5b21b6;
+  transform: translateY(-3px);
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Register link */
+.register-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.register-link {
+  color: #6d28d9;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.register-link:hover {
+  color: #5b21b6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .login-card {
+      padding: 30px 20px;
+  }
+}
+
+
+
+
+
+
+
+/* Background with expense tracking theme (financial/abstract) */
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1556740738-b6a63e27c4df"); /* Finance-themed background */
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+}
+
+/* Card styling */
+.register-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: slideDown 0.8s ease;
+}
+
+@keyframes slideDown {
+  from {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Headings and text */
+.register-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 28px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 15px;
+}
+
+/* Form input styles */
+.register-form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.register-form input:focus {
+  outline: none;
+  border-color: #10b981;
+}
+
+/* Register button */
+.register-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.register-form button:hover {
+  background-color: #059669;
+  transform: translateY(-3px);
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Login redirect link */
+.login-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-link {
+  color: #10b981;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.login-link:hover {
+  color: #059669;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .register-card {
+      padding: 30px 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar main styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.nav-item:hover {
+  color: #f1c40f;
+  transform: translateY(-2px);
+}
+
+/* Buttons (Login/Signup/Logout) */
+.nav-button {
+  padding: 10px 20px;
+  background-color: #10b981;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.nav-button:hover {
+  background-color: #059669;
+  transform: translateY(-2px);
+}
+
+.logout-btn {
+  background-color: #e74c3c;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+.signup-btn {
+  background-color: #f39c12;
+}
+
+.signup-btn:hover {
+  background-color: #e67e22;
+}
+
+/* Mobile responsive styles */
+.mobile-menu-icon {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile menu toggle */
+.nav-links-mobile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  background-color: #1e3c72;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+  transition: all 0.4s ease-in-out;
+}
+
+
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+      display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container styling with glassmorphism effect */
+.expense-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.expense-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Title styling */
+.expense-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Form and input styling */
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.expense-form input,
+.expense-form textarea {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.expense-form input:focus,
+.expense-form textarea:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+}
+
+.expense-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Add button styling with animations */
+.expense-form button {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.expense-form button:hover {
+  background-color: #059669;
+  transform: scale(1.05);
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 600px) {
+  .expense-container {
+      padding: 20px;
+  }
+
+  .expense-title {
+      font-size: 24px;
+  }
+
+  .expense-form input,
+  .expense-form textarea {
+      font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container and Title Styling */
+.expense-list-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.expense-list-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Total Spending Card */
+.total-spending-card {
+  background-color: #10b981;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 16px rgba(16, 185, 129, 0.3);
+}
+
+/* Expense Item Card */
+.expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.expense-item:hover {
+  transform: translateY(-5px);
+}
+
+.expense-card p {
+  margin: 8px 0;
+  font-size: 18px;
+  color: #444;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.edit-btn {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background-color: #2563eb;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626;
+}
+
+.save-btn {
+  background-color: #10b981;
+  color: #fff;
+}
+
+.save-btn:hover {
+  background-color: #059669;
+}
+
+.cancel-btn {
+  background-color: #6b7280;
+  color: #fff;
+}
+
+.cancel-btn:hover {
+  background-color: #4b5563;
+}
+
+/* Edit Form Styling */
+.expense-edit-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .expense-list-container {
+      padding: 20px;
+  }
+
+  .expense-card p {
+      font-size: 16px;
+  }
+
+  .total-spending-card {
+      font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container and Title Styling */
+.view-expense-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.view-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Filter Section */
+.filter-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.date-input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  width: 200px;
+  transition: all 0.3s;
+}
+
+.date-input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.5);
+}
+
+.filter-btn {
+  background-color: #10b981;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: #059669;
+}
+
+/* Loading and Messages */
+.loading-text,
+.no-expense-msg,
+.instruction-msg {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Filtered Expense Card */
+.filtered-expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.filtered-expense-card {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.filtered-expense-card:hover {
+  transform: translateY(-5px);
+}
+
+.filtered-expense-card p {
+  margin: 8px 0;
+  font-size: 18px;
+  color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .view-expense-container {
+      padding: 20px;
+  }
+
+  .date-input {
+      width: 100%;
+  }
+
+  .filtered-expense-card p {
+      font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Container and Title */
+.expense-summary-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.summary-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Chart Wrapper */
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Loading & No Data Text */
+.loading-text,
+.no-data-text {
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .expense-summary-container {
+    padding: 20px;
+  }
+
+  .summary-title {
+    font-size: 24px;
+  }
+
+  .chart-wrapper {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Gradient Background */
+.dashboard-container {
+  min-height: 100vh;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Header Styling */
+.dashboard-header {
+  text-align: center;
+  color: #fff;
+}
+
+.dashboard-header h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Glassmorphism Grid Cards */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.dashboard-grid > * {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(16px);
+  border-radius: 20px;
+  padding: 30px;
+  color: #fff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-grid > *:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Summary Full Width */
+.dashboard-grid > :last-child {
+  grid-column: 1 / -1;
+}
+
+/* Responsive Headings */
+@media (max-width: 768px) {
+  .dashboard-header h1 {
+    font-size: 2.2rem;
+  }
+}
