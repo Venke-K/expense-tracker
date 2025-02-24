@@ -13,7 +13,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://localhost:5000/api/auth/login", { email, password });
+            const response = await axios.post("https://expense-tracker-backend-v1v3.onrender.com/api/auth/login", { email, password });
             localStorage.setItem("token", response.data.token);
 
             // 🎉 Toast greeting after successful login

@@ -12,7 +12,7 @@ const ExpenseSummary = () => {
     const fetchExpenses = async () => {
       const token = localStorage.getItem("token");
       try {
-        const response = await axios.get("http://localhost:5000/api/expenses/all", {
+        const response = await axios.get("https://expense-tracker-backend-v1v3.onrender.com/api/expenses/all", {
           headers: { Authorization: `Bearer ${token}` },
         });
 

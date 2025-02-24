@@ -19,7 +19,7 @@ const ViewExpenses = () => {
             }
             setLoading(true);
             const token = localStorage.getItem("token");
-            const response = await axios.get("http://localhost:5000/api/expenses/filtered", {
+            const response = await axios.get("https://expense-tracker-backend-v1v3.onrender.com/api/expenses/filtered", {
                 headers: { Authorization: `Bearer ${token}` },
                 params: {
                     startDate: new Date(startDate).toISOString().split("T")[0],

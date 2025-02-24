@@ -15,7 +15,7 @@ const AddExpense = () => {
 
         try {
             await axios.post(
-                "http://localhost:5000/api/expenses/add",
+                "https://expense-tracker-backend-v1v3.onrender.com/api/expenses/add",
                 { amount, category, description, date: new Date(date).toISOString() },
                 {
                     headers: { Authorization: `Bearer ${token}` },
