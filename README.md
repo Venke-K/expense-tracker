@@ -26,16 +26,15 @@ A full-stack Expense Tracker application that helps users manage and track their
 ---
 
 Frontend Setup
-
-cd client
-npm install
-npm run dev
+-cd client
+-npm install
+-npm run dev
 
 Backend Setup
 
-cd server
-npm install
-npm node index.js
+ -cd server
+- npm install
+ -npm node index.js
 --
 
 💡 Usage
