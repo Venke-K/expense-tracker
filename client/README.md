@@ -1,8 +1,39 @@
-# React + Vite
+💸 Expense Tracker - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive frontend for the 💰 Expense Tracker app, built using React and Tailwind CSS. It allows users to manage, track, and visualize their expenses effortlessly. 🚀
 
-Currently, two official plugins are available:
+--⚡ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  🔐 User Authentication (Login & Signup)
+  
+  💵 Add, Edit, and Delete Expenses
+  
+  📊 View expense summaries with insightful charts
+  
+  🌙 Dark Mode Toggle
+  
+  🎉 Toast Notifications for user actions
+  
+  📱 Fully responsive design
+
+
+
+  --🛠 Tech Stack
+
+   ⚛️ React.js
+    
+  🎨 Tailwind CSS
+    
+  📦 Axios for API calls
+    
+  🌐 React Router DOM
+    
+  🔔 React Toastify (for notifications)
+
+
+  🌐 Deployment
+
+This frontend is deployed on Netlify. Simply connect the repository and set:
+
+  #Build Command: npm run build
+  #Publish Directory: dist 
